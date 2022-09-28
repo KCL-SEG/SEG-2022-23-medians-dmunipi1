@@ -7,9 +7,9 @@ def getMedian(list):
     index = (length - 1) // 2
 
     if length % 2 == 0:
-        return (sortedList[index] + sortedList[index + 1]) / 2.0
+        print((sortedList[index] + sortedList[index + 1]) / 2.0)
     else:
-        return sortedList[index]
+        print(sortedList[index])
 
 
 while True:
